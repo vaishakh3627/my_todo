@@ -1,9 +1,9 @@
 import React from "react";
 
+import Home from "./components/Todo";
+
 function App() {
-  return (
-    <h1>Welcome</h1>
-  );
+  return <Home />;
 }
 
 export default App;
