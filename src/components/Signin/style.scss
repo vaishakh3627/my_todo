@@ -1,0 +1,29 @@
+.signin-wrapper {
+  height: 50vh;
+  width: 35% !important;
+  background: linear-gradient(45deg, rgb(123, 203, 235), rgb(89, 143, 19));
+  border-radius: 20px;
+  box-shadow: 2px 3px 2px 3px;
+  padding: 20px;
+  .sign-input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .email-input-wrapper {
+      width: 70%;
+      margin-top: 30px;
+    }
+    input:focus {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+    .collapse-wrapper {
+      font-size: 13px !important;
+    }
+    .password-input-wrapper {
+      width: 70%;
+      margin-top: 30px;
+    }
+  }
+}

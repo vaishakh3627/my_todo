@@ -1,0 +1,59 @@
+.todo-wrapper {
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(190, 190, 241), rgb(157, 160, 252));
+  box-shadow: 2px 3px 2px 3px;
+  display: flex;
+  flex-direction: column;
+  width: 50% !important;
+  .input-container {
+    display: flex;
+    flex-direction: row;
+    button:focus {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+    input:focus {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+    button {
+        font-size: 15px !important;
+    }
+  }
+  .list-container {
+    padding: 20px 0px;
+    height: 40vh;
+    overflow-y: scroll;
+    .list-element {
+      margin-top: 5px !important;
+      margin-bottom: 5px !important;
+      border: 1px solid white;
+      border-radius: 10px !important;
+      .column-elements {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px !important;
+        button:focus {
+          outline: none !important;
+          box-shadow: none !important;
+        }
+      }
+      .todo-list {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+::-webkit-scrollbar {
+  width: 0px !important;
+}
+input {
+    font-size: 15px !important;
+    line-height: 2 !important;
+}
+input::-webkit-input-placeholder {
+  font-size: 15px;
+}

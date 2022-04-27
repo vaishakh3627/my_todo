@@ -1,0 +1,44 @@
+.emi-wrapper {
+  height: 60vh;
+  width: 40% !important;
+  background: linear-gradient(45deg, rgb(190, 190, 241), rgb(157, 160, 252));
+  border-radius: 10px;
+  box-shadow: 2px 3px 2px 3px;
+  padding: 10px;
+  .emi-calculator-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input:focus {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+    .label {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .emi-calculator-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px !important;
+      button:focus {
+        outline: none !important;
+        box-shadow: none !important;
+      }
+    }
+  }
+  .display {
+    height: 4rem;
+    width: 50rem;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    h5 {
+      margin-bottom: 0px !important;
+    }
+  }
+}

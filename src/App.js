@@ -1,9 +1,17 @@
 import React from "react";
 
-import Home from "./components/Todo";
+import Header from "./common/components/Navbar";
+import ApplicationRoutes from "./Routes";
 
 function App() {
-  return <Home />;
+  return (
+    <div className="app">
+      <Header />
+      <div className="todo-container">
+        <ApplicationRoutes />
+      </div>
+    </div>
+  );
 }
 
 export default App;
