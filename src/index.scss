@@ -2,11 +2,23 @@
 
 body {
   margin: 0;
-  font-family: "Lobster", cursive;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: "Lobster", cursive;
+  font-family: "Lobster", cursive !important;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(45deg, rgb(241, 241, 247), rgb(186, 187, 255));
+  background-repeat: no-repeat;
+  .todo-container {
+    height: calc(100vh - 56px);
+    display: grid;
+    place-items: center;
+  }
 }
